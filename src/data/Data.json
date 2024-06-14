@@ -2,25 +2,25 @@
   "slides": [
   {
     "id": 1,
-    "img": "/images/main_1.jpg",
+    "img": "/images/slider_1.jpg",
     "title": "福岡・佐賀観光へよこそ",
     "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
   },
   {
     "id": 2,
-    "img": "/images/main_2.jpg",
+    "img": "/images/slider_2.jpg",
     "title": "福岡・佐賀観光へよこそ",
     "content": "There are many variations of passages of Lorem Ipsum available, words which don't look even slightly believable."
   },
   {
     "id": 3,
-    "img": "/images/main_3.jpg",
+    "img": "/images/slider_3.jpg",
     "title": "福岡・佐賀観光へよこそ",
     "content": "Alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
   },
   {
     "id": 4,
-    "img": "/images/main_4.jpg",
+    "img": "/images/slider_4.jpg",
     "title": "福岡・佐賀観光へよこそ",
     "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
   }
@@ -29,19 +29,23 @@
   "fukuokaGallery": [
   {
     "id": 1,
-    "img": "/images/main_1.jpg"
+    "img": "/images/fukuoka/fukuokaGallery_1.jpg"
   },
   {
     "id": 2,
-    "img": "/images/main_2.jpg"
+    "img": "/images/fukuoka/fukuokaGallery_2.jpg"
   },
   {
     "id": 3,
-    "img": "/images/main_3.jpg"
+    "img": "/images/fukuoka/fukuokaGallery_3.jpg"
   },
   {
     "id": 4,
-    "img": "/images/main_4.jpg"
+    "img": "/images/fukuoka/fukuokaGallery_4.jpg"
+  },
+  {
+    "id": 5,
+    "img": "/images/fukuoka/fukuokaGallery_5.jpg"
   }
 ],
 
@@ -49,7 +53,7 @@
     {
       "id": 1,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_1.jpg",
+      "img": "/images/fukuoka/fukuoka_re_1.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
 
@@ -57,28 +61,28 @@
     {
       "id": 2,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_2.jpg",
+      "img": "/images/fukuoka/fukuoka_re_2.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 3,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_3.jpg",
+      "img": "/images/fukuoka/fukuoka_re_3.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 4,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_4.jpg",
+      "img": "/images/fukuoka/fukuoka_re_4.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 5,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_5.jpg",
+      "img": "/images/fukuoka/fukuoka_re_5.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
 
@@ -86,21 +90,21 @@
     {
       "id": 6,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_6.jpg",
+      "img": "/images/fukuoka/fukuoka_re_6.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 7,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_7.jpg",
+      "img": "/images/fukuoka/fukuoka_re_7.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 8,
       "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka_re_8.jpg",
+      "img": "/images/fukuoka/fukuoka_re_8.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     }
@@ -110,23 +114,23 @@
   "sagaGallery": [
     {
       "id": 1,
-      "img": "/images/saga_ga_1.jpg"
+      "img": "/images/saga/sagaGallery_1.jpg"
     },
     {
       "id": 2,
-      "img": "/images/saga_ga_2.jpg"
+      "img": "/images/saga/sagaGallery_2.jpg"
     },
     {
       "id": 3,
-      "img": "/images/saga_ga_3.jpg"
+      "img": "/images/saga/sagaGallery_3.jpg"
     },
     {
       "id": 4,
-      "img": "/images/saga_ga_4.jpg"
+      "img": "/images/saga/sagaGallery_4.jpg"
     },
     {
       "id": 4,
-      "img": "/images/saga_ga_5.jpg"
+      "img": "/images/saga/sagaGallery_2.jpg"
     }
   ],
 
@@ -134,7 +138,7 @@
     {
       "id": 1,
       "title": "福岡県のおすすめ",
-      "img": "/images/saga_re_1.jpg",
+      "img": "/images/saga/saga_re_1.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
 
@@ -142,21 +146,21 @@
     {
       "id": 2,
       "title": "福岡県のおすすめ",
-      "img": "/images/saga_re_2.jpg",
+      "img": "/images/saga/saga_re_2.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 3,
       "title": "福岡県のおすすめ",
-      "img": "/images/saga_re_3.jpg",
+      "img": "/images/saga/saga_re_3.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     },
     {
       "id": 4,
       "title": "福岡県のおすすめ",
-      "img": "/images/saga_re_4.jpg",
+      "img": "/images/saga/saga_re_4.jpg",
       "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
       "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
     }

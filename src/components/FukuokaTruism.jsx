@@ -74,7 +74,7 @@ export const FukuokaTruism = () => {
           {/*INTRO OF FUKUOKA */}
           <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
             <div className="mx-2">
-              <h4 className="text-2xl font-bold text-gray-600">Introducing Fukuoka</h4>
+              <h4 className="text-2xl font-bold text-gray-600">INTRODUCING FUKUOKA</h4>
               <p className="text-sm py-2 text-warning-500">福岡のご紹介</p>
               <div className="mt-5">
                 <h1 className="text-md text-gray-600">

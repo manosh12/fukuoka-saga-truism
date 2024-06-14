@@ -49,9 +49,9 @@ export const FukuokaTruism = () => {
       <div className="mt-20" id="fukuokaTruism">
         <div className="container mx-auto max-w-5xl">
           <div className="mt-5 mx-5">
-            <h3 className="text-center font-bold text-3xl text-gray-600">福岡・佐賀穴場紹介</h3>
+            <h3 className="text-center font-bold lg:text-3xl text-xl text-gray-600">福岡・佐賀穴場紹介</h3>
             <h6
-              className="font-bold text-center text-gray-600 text-xl mt-5">福岡・ザガで夢を見て、計画して、予約しましょう</h6>
+              className="font-bold text-center text-gray-600 lg:text-xl text-md mt-5">福岡・ザガで夢を見て、計画して、予約しましょう</h6>
             <h6
               className="text-center text-gray-600 text-sm">当社はオーストラリア人が所有、運営する企業です。つまり、私たちの活動には心を込めています。</h6>
             <h6
@@ -74,7 +74,7 @@ export const FukuokaTruism = () => {
           {/*INTRO OF FUKUOKA */}
           <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
             <div className="mx-2">
-              <h4 className="text-2xl font-bold text-gray-600">INTRODUCING FUKUOKA</h4>
+              <h4 className="lg:text-2xl text-xl font-bold text-gray-600">INTRODUCING FUKUOKA</h4>
               <p className="text-sm py-2 text-warning-500">福岡のご紹介</p>
               <div className="mt-5">
                 <h1 className="text-md text-gray-600">
@@ -104,8 +104,8 @@ export const FukuokaTruism = () => {
         {/*FUKUOKA img gallary */}
         <div className="bg-gray-100 mt-20 relative">
           <div className="container mx-auto max-w-5xl pt-10 text-gray-600">
-            <h4 className="text-center text-3xl">FUKUOKA TRUISM GALLERY</h4>
-            <p className="mt-5">
+            <h4 className="text-center lg:text-3xl text-xl">FUKUOKA TRUISM GALLERY</h4>
+            <p className="mt-5 mx-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type
@@ -155,7 +155,7 @@ export const FukuokaTruism = () => {
         {/*Fukuoka Prefecture recommendations */}
         <div className="container mx-auto max-w-6xl my-10">
           <div className="card">
-            <h4 className="text-center text-2xl font-bold text-gray-600">FUKUOKA PREFECTURE RECOMMENDATIONS PLACE</h4>
+            <h4 className="text-center lg:text-2xl text-xl font-bold text-gray-600">FUKUOKA PREFECTURE RECOMMENDATIONS PLACE</h4>
             <p className="mt-10 mx-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,

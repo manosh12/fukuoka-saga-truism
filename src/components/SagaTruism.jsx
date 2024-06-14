@@ -51,7 +51,7 @@ export const SagaTruism = () => {
           {/*SAGA OF FUKUOKA */}
             <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
               <div className="mx-2">
-                <h4 className="text-2xl font-bold text-gray-600">INTRODUCING SAGA</h4>
+                <h4 className="text-xl lg:text-2xl font-bold text-gray-600">INTRODUCING SAGA</h4>
                 <p className="text-sm py-2 text-warning-500">福岡のご紹介</p>
                 <div className="mt-5">
                   <h1 className="text-md text-gray-600">
@@ -82,8 +82,8 @@ export const SagaTruism = () => {
         {/*SAGA img gallary */}
         <div className="bg-gray-100 mt-20 relative">
           <div className="container mx-auto max-w-5xl pt-10">
-            <h4 className="text-gray-600 text-center text-3xl">SAGA TRUISM GALLERY</h4>
-            <p className="mt-5">
+            <h4 className="text-gray-600 text-center lg:text-3xl text-xl">SAGA TRUISM GALLERY</h4>
+            <p className="mt-5 mx-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled it to make a type
@@ -133,7 +133,7 @@ export const SagaTruism = () => {
         {/*saga Prefecture recommendations */}
         <div className="container mx-auto max-w-6xl my-10">
           <div className="card">
-            <h4 className="text-center text-2xl font-bold text-gray-600">SAGA PREFECTURE RECOMMENDATIONS PLACE</h4>
+            <h4 className="text-center lg:text-2xl text-xl font-bold text-gray-600">SAGA PREFECTURE RECOMMENDATIONS PLACE</h4>
             <p className="mt-10 mx-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,

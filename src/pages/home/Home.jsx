@@ -44,8 +44,8 @@ export const Home = () => {
             >
               <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/50 flex flex-col justify-center items-center">
                 <div className="text-center font-serif text-white px-4">
-                    <h1 className="text-5xl font-bold"> {slide.title} </h1>
-                    <p className="text-lg mt-5"> {slide.content} </p>
+                    <h1 className="lg:text-5xl text-2xl font-bold"> {slide.title} </h1>
+                    <p className="lg:text-lg text-md mt-5"> {slide.content} </p>
                 </div>
               </div>
             </div>

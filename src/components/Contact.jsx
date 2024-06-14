@@ -8,7 +8,7 @@ export const Contact = () => {
       {/* お問い合わせ */}
       <div id="contact">
         <div className="container mx-auto max-w-5xl py-20 my-10">
-          <h4 className="text-center text-3xl font-bold text-gray-600"> CONTACT US</h4>
+          <h4 className="text-center lg:text-3xl text-2xl font-bold text-gray-600"> CONTACT US</h4>
           <div className="mt-10">
             <div className="bg-gray-100 py-10 text-gray-600 text-center px-5 rounded-md"> サービスのお問い合わせは下記のフォームをご利用願います。なお、お問い合わせいただいた内容によっては、
               ご連絡までお時間がかかるものがございます。あらかじめご了承ください。
@@ -16,7 +16,7 @@ export const Contact = () => {
             </div>
           </div>
           <div className="text-center mt-10">
-            <div className="text-2xl font-bold mb-4 text-gray-600">【各種お問い合わせ先】</div>
+            <div className="lg:text-2xl text-xl font-bold mb-4 text-gray-600">【各種お問い合わせ先】</div>
             <h1 className="mt-5 text-md lg:mx-40 mx-5">〒812-0011 福岡市博多区駅前４丁目 18-19博多フロントビル2階205号</h1>
             <p className="ml-7 text-md mt-3">（月～金：9：00 ～ 17：00 ※祝祭日を除く）</p>
 

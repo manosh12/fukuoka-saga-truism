@@ -10,7 +10,7 @@ export const Contact = () => {
         <div className="container mx-auto max-w-5xl py-20 my-10">
           <h4 className="text-center text-3xl font-bold text-gray-600"> CONTACT US</h4>
           <div className="mt-10">
-            <div className="bg-gray-600 py-10 text-white text-center px-5 rounded-md"> サービスのお問い合わせは下記のフォームをご利用願います。なお、お問い合わせいただいた内容によっては、
+            <div className="bg-gray-100 py-10 text-gray-600 text-center px-5 rounded-md"> サービスのお問い合わせは下記のフォームをご利用願います。なお、お問い合わせいただいた内容によっては、
               ご連絡までお時間がかかるものがございます。あらかじめご了承ください。
               また、電話でのお問い合わせも承っておりますので、本社までご連絡ください。
             </div>

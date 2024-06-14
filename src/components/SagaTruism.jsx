@@ -80,7 +80,7 @@ export const SagaTruism = () => {
         </div>
 
         {/*SAGA img gallary */}
-        <div className="bg-gray-300 mt-20 relative">
+        <div className="bg-gray-100 mt-20 relative">
           <div className="container mx-auto max-w-5xl pt-10">
             <h4 className="text-gray-600 text-center text-3xl">SAGA TRUISM GALLERY</h4>
             <p className="mt-5">

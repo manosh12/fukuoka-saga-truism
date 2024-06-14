@@ -102,9 +102,9 @@ export const FukuokaTruism = () => {
         </div>
 
         {/*FUKUOKA img gallary */}
-        <div className="bg-gray-300 mt-20 relative">
-          <div className="container mx-auto max-w-5xl pt-10">
-            <h4 className="text-gray-600 text-center text-3xl">FUKUOKA TRUISM GALLERY</h4>
+        <div className="bg-gray-100 mt-20 relative">
+          <div className="container mx-auto max-w-5xl pt-10 text-gray-600">
+            <h4 className="text-center text-3xl">FUKUOKA TRUISM GALLERY</h4>
             <p className="mt-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,

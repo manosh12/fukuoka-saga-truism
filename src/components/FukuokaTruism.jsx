@@ -84,7 +84,7 @@ export const FukuokaTruism = () => {
           <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
             <div className="mx-2">
               <h4 className="lg:text-2xl text-xl font-bold text-gray-600">{t('fukuoka_introduction.title')}</h4>
-              <hr className="border-1 border-warning my-3"/>
+              <hr className="border-1 border-warning my-3 w-80"/>
               <div className="mt-5">
                 <h1 className="text-md text-gray-600">
                   {t('fukuoka_introduction.description')}

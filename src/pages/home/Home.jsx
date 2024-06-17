@@ -7,6 +7,8 @@ import { useTranslation } from 'react-i18next';
 import {FukuokaTruism} from "../../components/FukuokaTruism.jsx";
 import {SagaTruism} from "../../components/SagaTruism.jsx";
 import {Contact} from "../../components/Contact.jsx";
+import {Header} from "../../components/Header.jsx";
+import {Footer} from "../../components/Footer.jsx";
 
 export const Home = () => {
   const { t, i18n } = useTranslation();
@@ -35,6 +37,9 @@ export const Home = () => {
 
   return (
     <>
+      {/*ヘッダー*/}
+      <Header />
+
       {/* SLIDER */}
       <Slider {...settings}>
         {mainSlide.map((slide, index) => (
@@ -64,6 +69,9 @@ export const Home = () => {
 
       {/* お問い合わせ */}
        <Contact />
+
+      {/* フッター */}
+      <Footer />
     </>
   );
 }

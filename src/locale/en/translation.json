@@ -1,9 +1,9 @@
 {
   "Navbar": {
     "home": "HOME",
-    "fukuoka_kanko": "FUKUOKA TOURISM",
-    "saga_kanko": "SAGA TOURISM",
-    "contact": "CONTACT US"
+    "fukuoka_kanko": "FUKUOKA",
+    "saga_kanko": "SAGA",
+    "contact": "CONTACT"
   },
 
   "main": {
@@ -69,5 +69,11 @@
     "logo_title": "How can we help you. get in touch",
     "description": "To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged",
     "button": "CONTACT US"
+  },
+
+  "not-found": {
+    "title": "- Not Found",
+    "description": "Sorry, the page you are looking for could not be found.",
+    "backLink": "Back"
   }
 }

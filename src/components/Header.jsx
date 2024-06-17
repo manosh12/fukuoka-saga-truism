@@ -66,9 +66,10 @@ export const Header = () => {
           <Dropdown>
             <DropdownTrigger>
               <Button
-                className="flex items-center text-sm border-warning-1 bg-warning-400 text-gray-600"
+                variant="bordered"
+                className="flex items-center text-sm border-1 text-gray-600"
                 aria-label="Select language"
-                radius="none"
+                radius="sm"
               >
                 <FaGlobe size={20} />
                 {language === "en" ? "English" : "日本語"}
@@ -119,8 +120,9 @@ export const Header = () => {
           <Dropdown>
             <DropdownTrigger>
               <Button
-                aria-label="Select language border-dark"
-                className="bg-warning text-gray-600"
+                variant="bordered"
+                aria-label="Select language"
+                className="flex border-gray-50 items-center text-sm border-1 text-gray-600"
                 radius="none"
               >
                 <FaGlobe className="mr-2" size={20} />

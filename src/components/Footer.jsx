@@ -20,7 +20,7 @@ export const Footer = () => {
               <p className="w-full md:w-2/3 text-gray-400">{t('footer.description')}</p>
               <div className="w-44 pt-6 md:pt-0">
                 <Link to="#contact">
-                  <Button radius="none" className="mt-10 bg-warning-600 rounded-sm text-white font-bold" size="lg"> {t('footer.button')} </Button>
+                  <Button radius="none" className="mt-10 bg-warning-600 rounded-full text-white font-bold" size="lg"> {t('footer.button')} </Button>
                 </Link>
               </div>
             </div>

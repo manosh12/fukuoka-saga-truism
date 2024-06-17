@@ -21,9 +21,9 @@ export const Contact = () => {
             <h1 className="mt-5 text-md lg:mx-40 mx-5 text-gray-600">〒812-0011 {t('contact.address')}</h1>
             <p className="ml-7 text-md mt-3 text-gray-600">（{t('contact.contact_time')}）</p>
 
-            {/*phone*/}
+            {/*電話番号*/}
             <div className="grid sm:grid-cols-3 gap-10 mx-5 mt-10">
-              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl border-2 rounded-md pt-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
+              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl rounded-md pt-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
                 <div className="text-gray-600">
                   <div className="flex justify-center w-full">
                     <p className="border-1 rounded-full shadow-lg px-5 py-5 text-2xl"><FaPhoneFlip /></p>
@@ -37,7 +37,7 @@ export const Contact = () => {
               </div>
 
               {/*Fax*/}
-              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl border-2 rounded-md py-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
+              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl rounded-md py-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
                 <div className="text-gray-600">
                   <div className="flex justify-center w-full">
                     <p className="border-1 rounded-full shadow-lg px-5 py-5 text-2xl"><FaFax /></p>
@@ -50,8 +50,8 @@ export const Contact = () => {
                 </div>
               </div>
 
-              {/*email*/}
-              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl border-2 rounded-md py-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
+              {/*メール*/}
+              <div className="w-full h-auto text-left mt-5 ml-auto mr-auto max-w-lg shadow-2xl rounded-md py-5 px-10 pb-10 transition-transform duration-400 hover:-translate-y-3">
                 <div className="text-gray-600">
                   <div className="flex justify-center w-full">
                     <p className="border-1 rounded-full shadow-lg px-5 py-5 text-2xl"><FaMailBulk /></p>

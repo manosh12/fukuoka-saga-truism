@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Slider from "react-slick";
 import '../../App.css';
-import data from "../../data/Data.json";
+import data from "../../data/sliderData.json";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import {FukuokaTruism} from "../../components/FukuokaTruism.jsx";

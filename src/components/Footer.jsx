@@ -9,6 +9,7 @@ export const Footer = () => {
 
   return(
     <>
+      {/*フッター*/}
       <footer className="relative bg-black">
         <div className="w-full h-auto py-20 flex items-center justify-center bg-black">
           <div className="md:w-2/3 w-full px-4 text-white flex flex-col">

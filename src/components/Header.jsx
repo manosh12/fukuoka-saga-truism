@@ -19,7 +19,7 @@ import i18n from '../i18n';
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
-  const [language, setLanguage] = useState(i18n.language); // State to track current language
+  const [language, setLanguage] = useState(i18n.language);
 
   const menuItems = [
     { name: t('Navbar.home'), link: "/" },
@@ -39,13 +39,15 @@ export const Header = () => {
   };
 
   return (
+    // ヘッダー
     <Navbar isMenuOpen={isMenuOpen} onMenuOpenChange={setIsMenuOpen}>
+      {/* PC Menu */}
       <NavbarContent>
         <NavbarBrand>
           <Link to="/" onClick={TopScroll}>
             <div className="flex justify-start items-start gap-2">
               <img src="/images/logo.png" alt="logo" className="w-10 h-auto" />
-              <h4 className="font-bold text-lg mt-2">{t('Navbar.home')}</h4>
+              <h4 className="font-bold text-lg mt-2"><span className="text-warning">F</span>. <span className="text-warning">S</span>. TRUISM</h4>
             </div>
           </Link>
         </NavbarBrand>
@@ -117,7 +119,6 @@ export const Header = () => {
           <Dropdown>
             <DropdownTrigger>
               <Button
-                variant="bordered"
                 aria-label="Select language border-dark"
                 className="bg-warning text-gray-600"
                 radius="none"

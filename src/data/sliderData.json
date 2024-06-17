@@ -1,0 +1,56 @@
+{
+  "slides": {
+    "en": [
+      {
+        "id": 1,
+        "img": "/images/slider_1.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": 2,
+        "img": "/images/slider_2.jpg",
+        "title": "WELCOME TO SAGA BALLOON FIESTA",
+        "content": "The Saga International Balloon Fiesta is held at the beginning of November every year in Saga Prefecture, Japan. "
+      },
+      {
+        "id": 3,
+        "img": "/images/slider_3.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": 4,
+        "img": "/images/slider_4.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of passages of Lorem Ipsum available, words which don't look even slightly believable."
+      }
+    ],
+    "jp": [
+      {
+        "id": 1,
+        "img": "/images/slider_1.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "ユーモアを注入したり、少しも信じられないランダムな言葉の変種がたくさんあります。"
+      },
+      {
+        "id": 2,
+        "img": "/images/slider_2.jpg",
+        "title": "佐賀バルーンフェスタへようこそ",
+        "content": "佐賀インターナショナルバルーンフェスタは、毎年11月上旬に佐賀県で開催されます。"
+      },
+      {
+        "id": 3,
+        "img": "/images/slider_3.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "ユーモアを注入したり、少しも信じられないランダムな言葉の変種がたくさんあります。"
+      },
+      {
+        "id": 4,
+        "img": "/images/slider_4.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "信じられないほどのランダムな言葉がたくさんあります。"
+      }
+    ]
+  }
+}

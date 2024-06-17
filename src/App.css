@@ -111,3 +111,13 @@ figcaption {
         transform: scale(1.2);
     }
 }
+
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,6 +1,13 @@
-// src/components/Header.jsx
 import React, { useState } from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem } from "@nextui-org/react";
+import {
+  Navbar,
+  NavbarBrand,
+  NavbarContent,
+  NavbarItem,
+  NavbarMenuToggle,
+  NavbarMenu,
+  NavbarMenuItem,
+} from "@nextui-org/react";
 import { Link } from "react-router-dom";
 import { Dropdown, DropdownTrigger, DropdownMenu, DropdownItem, Button } from "@nextui-org/react";
 import { FaGlobe } from 'react-icons/fa';
@@ -12,12 +19,13 @@ import i18n from '../i18n';
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t } = useTranslation();
+  const [language, setLanguage] = useState(i18n.language); // State to track current language
 
   const menuItems = [
     { name: t('Navbar.home'), link: "/" },
-    { name: t('Navbar.confirmation'), link: "/#fukuokaTruism" },
-    { name: t('Navbar.payment'), link: "/#sagaTruism" },
-    { name: t('Navbar.complete'), link: "/#contact" },
+    { name: t('Navbar.fukuoka_kanko'), link: "/#fukuokaTruism" },
+    { name: t('Navbar.saga_kanko'), link: "/#sagaTruism" },
+    { name: t('Navbar.contact'), link: "/#contact" },
   ];
 
   const handleMenuClose = () => {
@@ -25,7 +33,9 @@ export const Header = () => {
   };
 
   const handleLanguageChange = (lang) => {
-    i18n.changeLanguage(lang);
+    i18n.changeLanguage(lang).then(() => {
+      setLanguage(lang);
+    });
   };
 
   return (
@@ -44,7 +54,7 @@ export const Header = () => {
             <NavbarItem key={index} isActive={index === 0}>
               <Link
                 to={item.link}
-                className="nav-link font-bold text-md text-gray-800 hover:text-cyan-700"
+                className="nav-link font-bold text-md text-gray-800 hover:text-warning-400"
                 onClick={TopScroll}
               >
                 {item.name}
@@ -54,19 +64,19 @@ export const Header = () => {
           <Dropdown>
             <DropdownTrigger>
               <Button
-                variant="bordered"
-                className="flex items-center text-sm border-1"
+                className="flex items-center text-sm border-warning-1 bg-warning-400 text-gray-600"
                 aria-label="Select language"
-                radius="sm"
+                radius="none"
               >
-                <FaGlobe className="" size={20} />
-                {i18n.language === "en" ? "English" : "日本語"}
+                <FaGlobe size={20} />
+                {language === "en" ? "English" : "日本語"}
               </Button>
             </DropdownTrigger>
             <DropdownMenu
               aria-label="Language selection"
               onAction={(key) => handleLanguageChange(key)}
               className="dropdown-menu"
+              radius="none"
             >
               <DropdownItem key="en">
                 <div className="flex items-center">
@@ -87,7 +97,7 @@ export const Header = () => {
         />
       </NavbarContent>
 
-      {/*mobile*/}
+      {/* Mobile Menu */}
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={index} className="mobile-menu-item">
@@ -108,11 +118,12 @@ export const Header = () => {
             <DropdownTrigger>
               <Button
                 variant="bordered"
-                className="flex items-center w-full"
-                aria-label="Select language"
+                aria-label="Select language border-dark"
+                className="bg-warning text-gray-600"
+                radius="none"
               >
                 <FaGlobe className="mr-2" size={20} />
-                {i18n.language === "en" ? "English" : "日本語"}
+                {language === "en" ? "English" : "日本語"}
               </Button>
             </DropdownTrigger>
             <DropdownMenu
@@ -122,13 +133,11 @@ export const Header = () => {
             >
               <DropdownItem key="en">
                 <div className="flex items-center">
-                  <FaGlobe className="mr-2" size={20} />
                   English
                 </div>
               </DropdownItem>
               <DropdownItem key="jp">
                 <div className="flex items-center">
-                  <FaGlobe className="mr-2" size={20} />
                   日本語
                 </div>
               </DropdownItem>

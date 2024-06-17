@@ -1,116 +1,198 @@
 {
-  "slides": [
-  {
-    "id": 1,
-    "img": "/images/slider_1.jpg",
-    "title": "福岡・佐賀観光へよこそ",
-    "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
+  "slides": {
+    "en": [
+      {
+        "id": 1,
+        "img": "/images/slider_1.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": 2,
+        "img": "/images/slider_2.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of passages of Lorem Ipsum available, words which don't look even slightly believable."
+      },
+      {
+        "id": 3,
+        "img": "/images/slider_3.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of, by injected humour, or randomised words which don't look even slightly believable."
+      },
+      {
+        "id": 4,
+        "img": "/images/slider_4.jpg",
+        "title": "WELCOME TO FUKUOKA・SAGA TOURISM",
+        "content": "There are many variations of passages of Lorem Ipsum available, words which don't look even slightly believable."
+      }
+    ],
+    "jp": [
+      {
+        "id": 1,
+        "img": "/images/slider_1.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "ユーモアを注入したり、少しも信じられないランダムな言葉の変種がたくさんあります。"
+      },
+      {
+        "id": 2,
+        "img": "/images/slider_2.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "信じられないほどのランダムな言葉がたくさんあります。"
+      },
+      {
+        "id": 3,
+        "img": "/images/slider_3.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "ユーモアを注入したり、少しも信じられないランダムな言葉の変種がたくさんあります。"
+      },
+      {
+        "id": 4,
+        "img": "/images/slider_4.jpg",
+        "title": "福岡・佐賀観光へよこそ",
+        "content": "信じられないほどのランダムな言葉がたくさんあります。"
+      }
+    ]
   },
-  {
-    "id": 2,
-    "img": "/images/slider_2.jpg",
-    "title": "福岡・佐賀観光へよこそ",
-    "content": "There are many variations of passages of Lorem Ipsum available, words which don't look even slightly believable."
-  },
-  {
-    "id": 3,
-    "img": "/images/slider_3.jpg",
-    "title": "福岡・佐賀観光へよこそ",
-    "content": "Alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
-  },
-  {
-    "id": 4,
-    "img": "/images/slider_4.jpg",
-    "title": "福岡・佐賀観光へよこそ",
-    "content": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration."
-  }
-],
-
   "fukuokaGallery": [
-  {
-    "id": 1,
-    "img": "/images/fukuoka/fukuokaGallery_1.jpg"
-  },
-  {
-    "id": 2,
-    "img": "/images/fukuoka/fukuokaGallery_2.jpg"
-  },
-  {
-    "id": 3,
-    "img": "/images/fukuoka/fukuokaGallery_3.jpg"
-  },
-  {
-    "id": 4,
-    "img": "/images/fukuoka/fukuokaGallery_4.jpg"
-  },
-  {
-    "id": 5,
-    "img": "/images/fukuoka/fukuokaGallery_5.jpg"
-  }
-],
-
-  "fukuokaRecommendations": [
     {
       "id": 1,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_1.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-
+      "img": "/images/fukuoka/fukuokaGallery_1.jpg"
     },
     {
       "id": 2,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_2.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      "img": "/images/fukuoka/fukuokaGallery_2.jpg"
     },
     {
       "id": 3,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_3.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      "img": "/images/fukuoka/fukuokaGallery_3.jpg"
     },
     {
       "id": 4,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_4.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      "img": "/images/fukuoka/fukuokaGallery_4.jpg"
     },
     {
       "id": 5,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_5.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-
-    },
-    {
-      "id": 6,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_6.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-    },
-    {
-      "id": 7,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_7.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-    },
-    {
-      "id": 8,
-      "title": "福岡県のおすすめ",
-      "img": "/images/fukuoka/fukuoka_re_8.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      "img": "/images/fukuoka/fukuokaGallery_5.jpg"
     }
   ],
-
-
+  "fukuokaRecommendations": {
+    "en": [
+      {
+        "id": 1,
+        "title": "TENJIN",
+        "img": "/images/fukuoka/tenjin.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 2,
+        "title": "FUKUOKA TOWER",
+        "img": "/images/fukuoka/fukuoka_tower.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 3,
+        "title": "NAKASU",
+        "img": "/images/fukuoka/nakasu.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 4,
+        "title": "HAKATA",
+        "img": "/images/fukuoka/hakata.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 5,
+        "title": "DAZAIFU",
+        "img": "/images/fukuoka/dazaifu.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 6,
+        "title": "OHORIKOUEN",
+        "img": "/images/fukuoka/ohorikouen.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 7,
+        "title": "Gion",
+        "img": "/images/fukuoka/gion.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 8,
+        "title": "UMINO　NAKAMICHI",
+        "img": "/images/fukuoka/uminonakamichi.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      }
+    ],
+    "jp": [
+      {
+        "id": 1,
+        "title": "天神",
+        "img": "/images/fukuoka/tenjin.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 2,
+        "title": "福岡タワー",
+        "img": "/images/fukuoka/fukuoka_tower.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 3,
+        "title": "祇園",
+        "img": "/images/fukuoka/gion.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 4,
+        "title": "中洲",
+        "img": "/images/fukuoka/nakasu.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 5,
+        "title": "博多",
+        "img": "/images/fukuoka/hakata.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 6,
+        "title": "太宰府",
+        "img": "/images/fukuoka/dazaifu.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 7,
+        "title": "大濠公園",
+        "img": "/images/fukuoka/ohorikouen.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 8,
+        "title": "海の中道",
+        "img": "/images/fukuoka/uminonakamichi.jpg",
+        "content": "私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      }
+    ]
+  },
   "sagaGallery": [
     {
       "id": 1,
@@ -133,36 +215,67 @@
       "img": "/images/saga/sagaGallery_2.jpg"
     }
   ],
+  "sagaRecommendations": {
+    "en": [
+      {
+        "id": 1,
+        "title": "Takeo Light Exhibition",
+        "img": "/images/saga/saga_re_1.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 2,
+        "title": "Niji no Matsubara",
+        "img": "/images/saga/saga_re_2.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 3,
+        "title": "Tea Tourism",
+        "img": "/images/saga/saga_re_3.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 4,
+        "title": "Iroha Islands",
+        "img": "/images/saga/saga_re_4.jpg",
+        "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      }
+    ],
 
-  "sagaRecommendations": [
-    {
-      "id": 1,
-      "title": "福岡県のおすすめ",
-      "img": "/images/saga/saga_re_1.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-
-    },
-    {
-      "id": 2,
-      "title": "福岡県のおすすめ",
-      "img": "/images/saga/saga_re_2.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-    },
-    {
-      "id": 3,
-      "title": "福岡県のおすすめ",
-      "img": "/images/saga/saga_re_3.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the.",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-    },
-    {
-      "id": 4,
-      "title": "福岡県のおすすめ",
-      "img": "/images/saga/saga_re_4.jpg",
-      "content": "Niji no Matsubara (Rainbow Pine Grove), , which stretches along the coast of Karatsu Bay, is a national special scenic beauty spot and one of the .",
-      "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
-    }
-  ]
+    "jp": [
+      {
+        "id": 1,
+        "title": "武雄光展",
+        "img": "/images/saga/saga_re_1.jpg",
+        "content": "原べずゃゆ覧相ナヘ作2相ッた運抜け支国光ルわ泊力しフ情打ヤ応議田ぼみとフ竹田フムウシ法聞おそ例金ぶつび将分タケマ慰無術ゅを制夫つ。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 2,
+        "title": "虹の松原",
+        "img": "/images/saga/saga_re_2.jpg",
+        "content": "原べずゃゆ覧相ナヘ作2相ッた運抜け支国光ルわ泊力しフ情打ヤ応議田ぼみとフ竹田フムウシ法聞おそ例金ぶつび将分タケマ慰無術ゅを制夫つ。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 3,
+        "title": "ティーツーリズム",
+        "img": "/images/saga/saga_re_3.jpg",
+        "content": "原べずゃゆ覧相ナヘ作2相ッた運抜け支国光ルわ泊力しフ情打ヤ応議田ぼみとフ竹田フムウシ法聞おそ例金ぶつび将分タケマ慰無術ゅを制夫つ。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      },
+      {
+        "id": 4,
+        "title": "いろは諸島",
+        "img": "/images/saga/saga_re_4.jpg",
+        "content": "原べずゃゆ覧相ナヘ作2相ッた運抜け支国光ルわ泊力しフ情打ヤ応議田ぼみとフ竹田フムウシ法聞おそ例金ぶつび将分タケマ慰無術ゅを制夫つ。",
+        "address": "https://maps.app.goo.gl/39oZ6mygGw5tmsvS6"
+      }
+    ]
+  }
 }

@@ -4,11 +4,11 @@ import data from "../data/Data.json";
 import '../App.css';
 import Modal from "react-modal";
 import {FaLocationDot, FaXmark} from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
 
 export const SagaTruism = () => {
   const gallery = data.sagaGallery;
-  const fukuokaRecommended = data.sagaRecommendations;
-
+  const { t, i18n } = useTranslation();
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
 
@@ -42,6 +42,9 @@ export const SagaTruism = () => {
     ]
   };
 
+  //福岡おすすめのデータを習得
+  const sagaRecommend = data.sagaRecommendations[i18n.language] || data.sagaRecommendations['en'];
+
   return (
     <>
       {/*SAGA INTRO*/}
@@ -51,23 +54,18 @@ export const SagaTruism = () => {
           {/*SAGA OF FUKUOKA */}
             <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
               <div className="mx-2">
-                <h4 className="text-xl lg:text-2xl font-bold text-gray-600">INTRODUCING SAGA</h4>
-                <p className="text-sm py-2 text-warning-500">福岡のご紹介</p>
+                <h4 className="text-xl lg:text-2xl font-bold text-gray-600">{t('saga_introduction.title')}</h4>
                 <div className="mt-5">
                   <h1 className="text-md text-gray-600">
-                    私共、<span className="text-warning font-bold text-2xl">Team Next One </span>
-                    は課題を抱えている個人から企業に至るまで皆様方の様々な依頼を受け専門家としてその解決に向けたサポート事業を主に行っています
-                    <p
-                      className="mt-5">個人・業界又分野によって課題は異なりますが依頼されている問題を細分化しそれに対する改善策をチームで提案を行い実施し解決していきます</p>
-                    <p
-                      className="my-5">チームが一つになってサポートして行きますので是非問題解決に向けた外部資源の活用をご利用ください</p>
-                    <p>皆様方の笑顔から全てが始まります次の誰かのために笑顔を繋ぎます今日も一日良い日になりますように</p>
+                    {t('saga_introduction.description')}
+                    <p className="my-5">{t('saga_introduction.second_description')}</p>
+                    <p className="my-5">{t('saga_introduction.third_description')}</p>
                   </h1>
                 </div>
               </div>
               <div>
                 <div className="lg:mt-5">
-                  <h4 className="text-2xl font-bold text-gray-600 text-center">福岡観光動画を見る</h4>
+                  <h4 className="text-2xl font-bold text-gray-600 text-center">{t('saga_introduction.watch_video')}</h4>
                   <video controls="controls" className="mt-10">
                     <source
                       src="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4"
@@ -82,16 +80,8 @@ export const SagaTruism = () => {
         {/*SAGA img gallary */}
         <div className="bg-gray-100 mt-20 relative">
           <div className="container mx-auto max-w-5xl pt-10">
-            <h4 className="text-gray-600 text-center lg:text-3xl text-xl">SAGA TRUISM GALLERY</h4>
-            <p className="mt-5 mx-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was popularised in
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+            <h4 className="text-center lg:text-3xl text-xl text-gray-600 font-bold">{t('saga_gallery.title')}</h4>
+            <p className="mt-5 mx-5 text-gray-600">{t('saga_gallery.description')}</p>
           </div>
           <div className="container mx-auto max-w-1xl py-10">
             <Slider {...fukuokaGalaryCenterMode}>
@@ -133,24 +123,21 @@ export const SagaTruism = () => {
         {/*saga Prefecture recommendations */}
         <div className="container mx-auto max-w-6xl my-10">
           <div className="card">
-            <h4 className="text-center lg:text-2xl text-xl font-bold text-gray-600">SAGA PREFECTURE RECOMMENDATIONS PLACE</h4>
-            <p className="mt-10 mx-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book.
-            </p>
+            <h4
+              className="text-center lg:text-2xl text-xl font-bold text-gray-600">{t('saga_recommend_place.title')}</h4>
+            <p className="mt-10 mx-5 text-gray-600">{t('saga_recommend_place.description')}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-10 mx-5">
-              {fukuokaRecommended.map((data) => (
+              {sagaRecommend.map((data) => (
                 <div className="img-gallery mb-3" key={data.id}>
                   <div className="galary-content">
                     <figure className="flex justify-center">
                       <img src={data.img} alt="fukuoka1" className="w-full h-auto rounded-sm"/>
-                      <figcaption className="text-lg text-center glary-title text-white">{data.title}</figcaption>
+                      <figcaption className="text-lg text-center glary-title text-warning font-bold">{data.title}</figcaption>
                       <figcaption className="text-sm text-center mt-2 mb-20">{data.content}</figcaption>
                       <figcaption className="flex justify-end mt-20">
                         <a href={data.address}
-                           className="bg-gray-400 w-[40px] h-[40px] flex items-center justify-center shadow-lg rounded-md" target="_blank">
+                           className="bg-gray-400 w-[40px] h-[40px] flex items-center justify-center shadow-lg rounded-md"
+                           target="_blank">
                           <FaLocationDot className="text-warning-300"/>
                         </a>
                       </figcaption>

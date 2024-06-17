@@ -1,8 +1,73 @@
 {
   "Navbar": {
     "home": "HOME",
-    "confirmation": "FUKUOKA TOURISM",
-    "payment": "SAGA TOURISM",
-    "complete": "CONTACT US"
+    "fukuoka_kanko": "FUKUOKA TOURISM",
+    "saga_kanko": "SAGA TOURISM",
+    "contact": "CONTACT US"
+  },
+
+  "main": {
+    "main_title": "WEL-COME FUKUOKA・SAGA TRUISM",
+    "main_description": "To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged."
+  },
+
+  "fukuoka_saga_intro": {
+    "title": "Fukuoka・Saga hidden gem introduction",
+    "sub_title": "Dream, plan and book in Saga, Fukuoka",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "second_content": "Lorem Ipsum has been the industry's standard dummy text ver since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+
+  "fukuoka_introduction": {
+    "title": "INTRODUCING FUKUOKA",
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.",
+    "second_description": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
+    "third_description": "literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor.",
+    "watch_video": "Watch Fukuoka sightseeing video"
+  },
+
+  "fukuoka_gallery": {
+    "title": "FUKUOKA TRUISM GALLERY",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+  "fukuoka_recommend_place": {
+    "title": "FUKUOKA PREFECTURE RECOMMENDATIONS PLACE",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+  "saga_introduction": {
+    "title": "INTRODUCING SAGA",
+    "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.",
+    "second_description": "It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.",
+    "third_description": "literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor.",
+    "watch_video": "Watch Fukuoka sightseeing video"
+  },
+
+  "saga_gallery": {
+    "title": "SAGA TRUISM GALLERY",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+  "saga_recommend_place": {
+    "title": "SAFA PREFECTURE RECOMMENDATIONS PLACE",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+
+  "contact": {
+    "title" : "CONTACT US",
+    "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
+    "info" : "Various inquiries",
+    "address": "205, Hakata Front Building 2nd Floor, 4-18-19 Ekimae, Hakata-ku, Oka City",
+    "contact_time": "Monday to Friday: 9:00 to 17:00 *Excluding public holidays",
+    "phone": "PHONE",
+    "fax": "FAX",
+    "email": "EMAIL"
+  },
+
+  "footer": {
+    "logo_title": "How can we help you. get in touch",
+    "description": "To ensure that all Wikipedia content is verifiable, anyone may question an uncited claim. If your work has been tagged",
+    "button": "CONTACT US"
   }
 }

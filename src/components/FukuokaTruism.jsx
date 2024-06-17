@@ -5,10 +5,11 @@ import data from "../data/Data.json";
 import '../App.css';
 import Modal from "react-modal";
 import {FaLocationDot, FaXmark} from "react-icons/fa6";
+import { useTranslation } from 'react-i18next';
 
 export const FukuokaTruism = () => {
   const gallery = data.fukuokaGallery;
-  const fukuokaRecommended = data.fukuokaRecommendations;
+  const { t, i18n } = useTranslation();
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [currentImage, setCurrentImage] = useState(null);
@@ -43,19 +44,22 @@ export const FukuokaTruism = () => {
     ]
   };
 
+  //福岡おすすめのデータを習得
+  const fukuokaRecommend = data.fukuokaRecommendations[i18n.language] || data.fukuokaRecommendations['en'];
+
   return (
     <>
       {/*FUKUOKA INTRO*/}
       <div className="mt-20" id="fukuokaTruism">
         <div className="container mx-auto max-w-5xl">
           <div className="mt-5 mx-5">
-            <h3 className="text-center font-bold lg:text-3xl text-xl text-gray-600">福岡・佐賀穴場紹介</h3>
+            <h3 className="text-center font-bold lg:text-3xl text-xl text-gray-600">{t('fukuoka_saga_intro.title')}</h3>
             <h6
-              className="font-bold text-center text-gray-600 lg:text-xl text-md mt-5">福岡・ザガで夢を見て、計画して、予約しましょう</h6>
+              className="font-bold text-center text-gray-600 lg:text-xl text-md mt-5">{t('fukuoka_saga_intro.sub_title')}</h6>
             <h6
-              className="text-center text-gray-600 text-sm">当社はオーストラリア人が所有、運営する企業です。つまり、私たちの活動には心を込めています。</h6>
+              className="text-center text-gray-600 text-sm">{t('fukuoka_saga_intro.content')}</h6>
             <h6
-              className="text-center text-gray-600 my-4"> 私たちはオーストラリアが大好きですが、私たちほどすべての秘密や隠された宝石を知っている人は誰もいません。ですから、私たちにご予約いただければ安全ですので、ご安心ください。</h6>
+              className="text-center text-gray-600 my-4"> {t('fukuoka_saga_intro.second_content')}</h6>
           </div>
           <div className="flex justify-center text-gray-600 my-10 mx-5">
             <div className="w-full max-w-2xl flex justify-center items-center">
@@ -74,23 +78,18 @@ export const FukuokaTruism = () => {
           {/*INTRO OF FUKUOKA */}
           <div className="grid sm:grid-cols-2 gap-20 mx-5 mt-20">
             <div className="mx-2">
-              <h4 className="lg:text-2xl text-xl font-bold text-gray-600">INTRODUCING FUKUOKA</h4>
-              <p className="text-sm py-2 text-warning-500">福岡のご紹介</p>
+              <h4 className="lg:text-2xl text-xl font-bold text-gray-600">{t('fukuoka_introduction.title')}</h4>
               <div className="mt-5">
                 <h1 className="text-md text-gray-600">
-                  私共、<span className="text-warning font-bold text-2xl">Team Next One </span>
-                  は課題を抱えている個人から企業に至るまで皆様方の様々な依頼を受け専門家としてその解決に向けたサポート事業を主に行っています
-                  <p
-                    className="mt-5">個人・業界又分野によって課題は異なりますが依頼されている問題を細分化しそれに対する改善策をチームで提案を行い実施し解決していきます</p>
-                  <p
-                    className="my-5">チームが一つになってサポートして行きますので是非問題解決に向けた外部資源の活用をご利用ください</p>
-                  <p>皆様方の笑顔から全てが始まります次の誰かのために笑顔を繋ぎます今日も一日良い日になりますように</p>
+                  {t('fukuoka_introduction.description')}
+                  <p className="my-5">{t('fukuoka_introduction.second_description')}</p>
+                  <p className="my-5">{t('fukuoka_introduction.third_description')}</p>
                 </h1>
               </div>
             </div>
             <div>
               <div className="lg:mt-5">
-                <h4 className="text-2xl font-bold text-gray-600 text-center">福岡観光動画を見る</h4>
+                <h4 className="text-2xl font-bold text-gray-600 text-center">{t('fukuoka_introduction.watch_video')}</h4>
                 <video controls="controls" className="mt-10">
                   <source
                     src="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4"
@@ -104,16 +103,8 @@ export const FukuokaTruism = () => {
         {/*FUKUOKA img gallary */}
         <div className="bg-gray-100 mt-20 relative">
           <div className="container mx-auto max-w-5xl pt-10 text-gray-600">
-            <h4 className="text-center lg:text-3xl text-xl">FUKUOKA TRUISM GALLERY</h4>
-            <p className="mt-5 mx-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was popularised in
-              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
+            <h4 className="text-center lg:text-3xl text-xl">{t('fukuoka_gallery.title')}</h4>
+            <p className="mt-5 mx-5">{t('fukuoka_gallery.description')}</p>
           </div>
           <div className="container mx-auto max-w-1xl py-10">
             <Slider {...fukuokaGalaryCenterMode}>
@@ -155,20 +146,15 @@ export const FukuokaTruism = () => {
         {/*Fukuoka Prefecture recommendations */}
         <div className="container mx-auto max-w-6xl my-10">
           <div className="card">
-            <h4 className="text-center lg:text-2xl text-xl font-bold text-gray-600">FUKUOKA PREFECTURE RECOMMENDATIONS PLACE</h4>
-            <p className="mt-10 mx-5">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book.
-            </p>
+            <h4 className="text-center lg:text-2xl text-xl font-bold text-gray-600">{t('fukuoka_recommend_place.title')}</h4>
+            <p className="mt-10 mx-5">{t('fukuoka_recommend_place.description')}</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-10 mx-5">
-              {fukuokaRecommended.map((data) => (
+              {fukuokaRecommend.map((data) => (
                 <div className="img-gallery mb-3" key={data.id}>
                   <div className="galary-content">
                     <figure className="flex justify-center">
                       <img src={data.img} alt="fukuoka1" className="w-full h-auto rounded-sm"/>
-                      <figcaption className="text-lg text-center glary-title text-white">{data.title}</figcaption>
+                      <figcaption className="text-lg text-center glary-title text-warning font-bold">{data.title}</figcaption>
                       <figcaption className="text-sm text-center mt-2 mb-20">{data.content}</figcaption>
                       <figcaption className="flex justify-end mt-20">
                         <a href={data.address}
